@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Ritz",
+    "stars": 5,
+    "services": [{ "name": "lavanderia", "price": 3 }]
+  },
+  {
+    "name": "Ritz",
+    "stars": [1,2,3,4],
+    "services": [{ "name": "lavanderia", "price": 3 }]
+  }
+]
