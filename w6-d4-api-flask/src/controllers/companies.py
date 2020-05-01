@@ -21,4 +21,8 @@ def getCompany(name):
         print("ERROR")
         raise Error404("company not found")
     print("OK")
-    return dumps(company)
+    #return dumps(company)
+    return {
+        "status":"success",
+        "dbresponse":dumps(company)
+    }
